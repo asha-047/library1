@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.form input, .form button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #2980b9;
+}
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-list li {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-left: 5px solid #3498db;
+  border-radius: 5px;
+}
